@@ -1,0 +1,8 @@
+# Ignore sensitive files
+setting/config.php
+setting/config - Copy.php
+
+# Ignore logs, temp files, etc.
+*.log
+temp/
+*.php~
