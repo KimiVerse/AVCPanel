@@ -7,8 +7,7 @@
 //--------------------------------------------------------------------------------
 //Unauthorized copying is strictly prohibited.
 //Editing or redistributing this content without explicit permission from the Avcpanel family is forbidden.
-//کپی رایت بدون اطلاع مساوی کس مادرت !!
-//ادیت بدون ذکر اجازه داخل خانواده Avcpanel مساوی کس مادرت!!
+//Thanks for your support!!
 
 require_once __DIR__ . '/setting/config.php';
 require_once __DIR__ . '/setting/functions.php';
@@ -2887,7 +2886,6 @@ elseif ($data == 'broadcast_menu' && hasPermission($conn, $from_id, 'broadcast')
 }
 //Unauthorized copying is strictly prohibited.
 //Editing or redistributing this content without explicit permission from the Avcpanel family is forbidden.
-//کپی رایت بدون اطلاع مساوی کس مادرت !!
-//ادیت بدون ذکر اجازه داخل خانواده Avcpanel مساوی کس مادرت!!
+//Thanks for your support !!
 
 ?>
