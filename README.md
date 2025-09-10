@@ -1,80 +1,45 @@
-[فارسی](./README.fa.md)
+# AVCPanel - Advanced V2Ray Client Panel
 
-# AVCPanel Bot 🚀
+<p align="center">
+  <img src="https://raw.githubusercontent.com/KimiVerse/AVCPanel/main/icon.png" alt="AVCPanel Logo" width="150"/>
+</p>
 
-[![PHP Version](https://img.shields.io/badge/php-%3E%3D7.0-blue)](https://php.net)
-[![GitHub license](https://img.shields.io/github/license/KimiVerse/AVCPanel)](https://github.com/KimiVerse/AVCPanel/blob/main/LICENSE)
-[![GitHub stars](https://img.shields.io/github/stars/KimiVerse/AVCPanel)](https://github.com/KimiVerse/AVCPanel/stargazers)
-[![GitHub issues](https://img.shields.io/github/issues/KimiVerse/AVCPanel)](https://github.com/KimiVerse/AVCPanel/issues)
+<p align="center">
+  <strong>In loving memory of Mahdi, a dear friend.</strong>
+</p>
 
-An advanced and powerful Telegram bot for managing VPN panel users, specifically designed for the **Blitz Panel**. This bot utilizes PHP and PDO for secure communication with a MySQL database, offering extensive features for both administrators and users.
+<p align="center">
+  <a href="README.fa.md"><strong>نسخه فارسی (Persian Version)</strong></a>
+</p>
 
-## ⚠️ Important Prerequisite
+AVCPanel is a powerful and efficient Telegram bot-based panel for managing V2Ray clients. It is designed for easy deployment and seamless user management. This project is also compatible with the **Blitz Panel** infrastructure.
 
-To use this bot, the **Blitz Panel** must be installed and running. This bot acts as a user management interface for it.
+## ✨ Features
 
-- **Blitz Panel Repository:** [https://github.com/ReturnFI/Blitz](https://github.com/ReturnFI/Blitz)  
-  *Don't forget to support the panel's developer.*
+- **User-friendly Interface**: Manage users directly through a Telegram bot.
+- **Easy Installation**: A streamlined setup process using aaPanel.
+- **Automated Scripts**: Includes scripts for cloning the project and setting up the webhook.
+- **Customizable Configuration**: Easily modify settings like bot token, database credentials, and admin ID.
+- **SSL Support**: Simple steps to secure your domain with Let's Encrypt SSL.
 
-## ✨ Key Features
+## 🚀 Getting Started
 
-- **User Management:**
-  - Easy and fast user registration.
-  - Wallet balance and referral system management.
-  - View and manage purchased services.
+To get started with AVCPanel, follow our detailed installation guide.
 
-- **Powerful Admin Panel:**
-  - Full control over panels and servers.
-  - Define and manage sales plans.
-  - Ticketing system for user support.
-  - View detailed sales and user statistics.
+-  English Guide: [**DEPLOYMENT.md**](./DEPLOYMENT.md)
+- Persian Guide: [**DEPLOYMENT.fa.md**](./DEPLOYMENT.fa.md)
 
-- **Payment System:**
-  - Supports card-to-card payments with an auto-confirmation system.
-  - Direct purchase using wallet balance.
+## 🔧 Requirements
 
-- **Security:**
-  - Encryption of sensitive user data.
-  - Option to enforce membership in a Telegram channel.
-  - Secure communication with the API and database.
-
-- **Automated Tasks (Cron Jobs):**
-  - Automatic removal of expired services.
-  - Periodic renewal reminders.
-
-## 🛠️ Tech Stack
-
-- **Programming Language:** PHP 7.0 or higher
-- **PHP Extensions:** cURL, PDO, OpenSSL
-- **Database:** MySQL (with `utf8mb4` encoding for full language support)
-- **Dependencies:** `jdf.php` for Jalali date management.
-- **Interface:** Telegram Bot API
-
-## 🚀 Quick Start
-
-For a comprehensive installation guide, please read the [DEPLOYMENT.md](DEPLOYMENT.md) file.
-
-1.  **Clone the repository:**
-    ```bash
-    git clone https://github.com/KimiVerse/AVCPanel.git
-    ```
-2.  Run `table.php` in your database to create the necessary tables.
-3.  Create a copy of `setting/config.example.php` and rename it to `setting/config.php`.
-4.  Fill in your bot token, database credentials, and other settings in `setting/config.php`.
-5.  Upload the project to a server that supports PHP and MySQL.
-6.  Set your Telegram bot's webhook to point to the `bot.php` file.
+- A server (VPS/VDS)
+- A domain name configured with Cloudflare
+- **Recommended OS**: Ubuntu 22.04
+- **Recommended Resources**: 2GB RAM, 2 Core CPU
 
 ## 🤝 Contributing
 
-We welcome contributions. You can fork the project, apply your changes, and submit a pull request. Please adhere to our [CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md).
+Contributions are welcome! Please feel free to fork the repository, make your changes, and submit a pull request.
 
 ## 📄 License
 
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
-
----
-**Developer:** Kimiya | **GitHub:** [KimiVerse](https://github.com/KimiVerse/AVCPanel) | **Admin Contact:** [t.me/amirmasoud_rsli](https://t.me/amirmasoud_rsli)
-
-*Note: Any copying or modification without permission is prohibited.*
-
-**In memory of Mehdi 🖤**
+This project is open-source and available under the [MIT License](LICENSE).
