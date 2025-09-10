@@ -1,83 +1,80 @@
+[فارسی](./README.fa.md)
+
 # AVCPanel Bot 🚀
 
+[![PHP Version](https://img.shields.io/badge/php-%3E%3D7.0-blue)](https://php.net)
 [![GitHub license](https://img.shields.io/github/license/KimiVerse/AVCPanel)](https://github.com/KimiVerse/AVCPanel/blob/main/LICENSE)
 [![GitHub stars](https://img.shields.io/github/stars/KimiVerse/AVCPanel)](https://github.com/KimiVerse/AVCPanel/stargazers)
 [![GitHub issues](https://img.shields.io/github/issues/KimiVerse/AVCPanel)](https://github.com/KimiVerse/AVCPanel/issues)
-[![PHP Version](https://img.shields.io/badge/php-%3E%3D7.0-blue)](https://php.net)
 
-یک ربات تلگرامی پیشرفته و قدرتمند برای مدیریت کاربران پنل‌های VPN که به طور خاص برای پنل **Blitz** طراحی شده است. این ربات با بهره‌گیری از PHP و PDO برای ارتباط امن با پایگاه داده MySQL، امکانات گسترده‌ای را در اختیار مدیران و کاربران قرار می‌دهد.
+An advanced and powerful Telegram bot for managing VPN panel users, specifically designed for the **Blitz Panel**. This bot utilizes PHP and PDO for secure communication with a MySQL database, offering extensive features for both administrators and users.
 
-## ⚠️ پیش‌نیاز مهم
+## ⚠️ Important Prerequisite
 
-برای استفاده از این ربات، نصب و راه‌اندازی **پنل Blitz** الزامی است. این ربات به عنوان یک رابط کاربری برای مدیریت کاربران این پنل عمل می‌کند.
+To use this bot, the **Blitz Panel** must be installed and running. This bot acts as a user management interface for it.
 
-- **مخزن پنل Blitz:** [https://github.com/ReturnFI/Blitz](https://github.com/ReturnFI/Blitz)
-فراموش نکنید از پنل حمایت کنید.
+- **Blitz Panel Repository:** [https://github.com/ReturnFI/Blitz](https://github.com/ReturnFI/Blitz)  
+  *Don't forget to support the panel's developer.*
 
-## ✨ ویژگی‌های کلیدی
+## ✨ Key Features
 
-- **مدیریت کاربران:**
-  - ثبت‌نام آسان و سریع کاربران.
-  - مدیریت موجودی کیف پول و سیستم دعوت‌نامه.
-  - مشاهده و مدیریت سرویس‌های خریداری‌شده.
+- **User Management:**
+  - Easy and fast user registration.
+  - Wallet balance and referral system management.
+  - View and manage purchased services.
 
-- **پنل مدیریت قدرتمند:**
-  - کنترل کامل بر روی پنل‌ها و سرورها.
-  - تعریف و مدیریت پلن‌های فروش.
-  - سیستم تیکتینگ برای پشتیبانی کاربران.
-  - مشاهده آمار دقیق فروش و کاربران.
+- **Powerful Admin Panel:**
+  - Full control over panels and servers.
+  - Define and manage sales plans.
+  - Ticketing system for user support.
+  - View detailed sales and user statistics.
 
-- **سیستم پرداخت:**
-  - پشتیبانی از پرداخت کارت به کارت با سیستم تایید خودکار.
-  - امکان خرید مستقیم با استفاده از موجودی کیف پول.
+- **Payment System:**
+  - Supports card-to-card payments with an auto-confirmation system.
+  - Direct purchase using wallet balance.
 
-- **امنیت:**
-  - رمزنگاری داده‌های حساس کاربران.
-  - قابلیت فعال‌سازی عضویت اجباری در کانال تلگرام.
-  - ارتباط امن با API و پایگاه داده.
+- **Security:**
+  - Encryption of sensitive user data.
+  - Option to enforce membership in a Telegram channel.
+  - Secure communication with the API and database.
 
-- **وظایف خودکار (Cron Jobs):**
-  - حذف خودکار سرویس‌های منقضی‌شده.
-  - ارسال هشدارهای دوره‌ای برای تمدید سرویس.
+- **Automated Tasks (Cron Jobs):**
+  - Automatic removal of expired services.
+  - Periodic renewal reminders.
 
-- **پشتیبانی و راهنما:**
-  - سیستم تیکتینگ داخلی برای ارتباط مستقیم با کاربران.
-  - راهنماهای جامع برای تسهیل استفاده از ربات.
+## 🛠️ Tech Stack
 
-## 🛠️ تکنولوژی‌های مورد استفاده
+- **Programming Language:** PHP 7.0 or higher
+- **PHP Extensions:** cURL, PDO, OpenSSL
+- **Database:** MySQL (with `utf8mb4` encoding for full language support)
+- **Dependencies:** `jdf.php` for Jalali date management.
+- **Interface:** Telegram Bot API
 
-- **زبان برنامه‌نویسی:** PHP 7.0 یا بالاتر
-- **افزونه‌های PHP:** cURL, PDO, OpenSSL
-- **پایگاه داده:** MySQL (با انکدینگ `utf8mb4` برای پشتیبانی کامل از زبان فارسی)
-- **وابستگی‌ها:** `jdf.php` برای مدیریت تاریخ شمسی.
-- **رابط:** Telegram Bot API
+## 🚀 Quick Start
 
-## 🚀 نصب و راه‌اندازی
+For a comprehensive installation guide, please read the [DEPLOYMENT.md](DEPLOYMENT.md) file.
 
-برای راهنمایی کامل در مورد مراحل نصب و استقرار، لطفاً فایل [DEPLOYMENT.md](DEPLOYMENT.md) را مطالعه کنید.
-
-### ⚡️ شروع سریع
-
-1.  ابتدا مخزن پروژه را کلون کنید:
+1.  **Clone the repository:**
     ```bash
     git clone https://github.com/KimiVerse/AVCPanel.git
     ```
-2.  فایل `table.php` را برای ساخت جداول مورد نیاز در پایگاه داده خود اجرا کنید.
-3.  یک کپی از فایل `setting/config.example.php` بسازید و نام آن را به `setting/config.php` تغییر دهید.
-4.  اطلاعات مورد نیاز مانند توکن ربات، اطلاعات پایگاه داده و سایر تنظیمات را در فایل `setting/config.php` وارد کنید.
-5.  پروژه را بر روی یک سرور که از PHP و MySQL پشتیبانی می‌کند، آپلود کنید.
-6.  وب‌هوک ربات تلگرام خود را تنظیم کنید یا از حالت long-polling برای اجرای ربات استفاده نمایید.
+2.  Run `table.php` in your database to create the necessary tables.
+3.  Create a copy of `setting/config.example.php` and rename it to `setting/config.php`.
+4.  Fill in your bot token, database credentials, and other settings in `setting/config.php`.
+5.  Upload the project to a server that supports PHP and MySQL.
+6.  Set your Telegram bot's webhook to point to the `bot.php` file.
 
-## 🤝 مشارکت در پروژه
+## 🤝 Contributing
 
-ما از مشارکت شما استقبال می‌کنیم. می‌توانید پروژه را فورک کرده، تغییرات خود را اعمال کنید و یک درخواست ادغام (Pull Request) برای ما ارسال نمایید. لطفاً به قوانین رفتاری ما در [CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md) پایبند باشید.
+We welcome contributions. You can fork the project, apply your changes, and submit a pull request. Please adhere to our [CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md).
 
-## 📄 مجوز استفاده (License)
+## 📄 License
 
-این پروژه تحت مجوز MIT منتشر شده است. برای اطلاعات بیشتر، فایل [LICENSE](LICENSE) را مطالعه کنید.
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
 
 ---
+**Developer:** Kimiya | **GitHub:** [KimiVerse](https://github.com/KimiVerse/AVCPanel) | **Admin Contact:** [t.me/amirmasoud_rsli](https://t.me/amirmasoud_rsli)
 
-**توسعه‌دهنده:** کی‌میا | **GitHub:** [KimiVerse](https://github.com/KimiVerse/AVCPanel) | **ارتباط با ادمین:** [t.me/amirmasoud_rsli](https://t.me/amirmasoud_rsli)
+*Note: Any copying or modification without permission is prohibited.*
 
-*توجه: هرگونه کپی‌برداری یا ویرایش بدون کسب اجازه ممنوع است.*
+**In memory of Mehdi 🖤**
