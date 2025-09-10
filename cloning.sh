@@ -27,8 +27,6 @@ FILES_TO_EXCLUDE=(
   "deploy.sh"
 )
 
-echo "Starting the deployment process for domain: $DOMAIN"
-
 # 1. Clone the project into a temporary directory
 echo "Cloning the project from GitHub..."
 git clone --depth 1 "$REPO_URL" "$TEMP_DIR"
