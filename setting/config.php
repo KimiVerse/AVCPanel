@@ -22,6 +22,9 @@ define('BOT_TOKEN', 'YOUR_TOKEN_HERE');
 // The Telegram user ID of the bot's primary owner.
 define('OWNER_ID', 'YOUR_ADMIN_ID_HERE');
 
+// Your bot's username without the '@' symbol.
+define('BOT_USERNAME', 'avcpanelbot');
+
 // The password for your database user.
 define('DB_PASS', 'YOUR_DB_PASSWORD_HERE');
 
@@ -46,9 +49,6 @@ define('DB_NAME', 'avcpanel');
 // The username for accessing the database.
 // Change only if you used a different username during setup.
 define('DB_USER', 'avcpanel');
-
-// Your bot's username without the '@' symbol.
-define('BOT_USERNAME', 'avcpanelbot');
 
 // An encryption key for securing sensitive data.
 // DO NOT CHANGE this value after the initial setup, as it can lead to data loss.
