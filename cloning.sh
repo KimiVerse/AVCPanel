@@ -24,7 +24,7 @@ FILES_TO_EXCLUDE=(
   "CODE_OF_CONDUCT.md"
   ".gitignore"
   "LICENSE"
-  "deploy.sh"
+  "cloning.sh"
 )
 
 # 1. Clone the project into a temporary directory
