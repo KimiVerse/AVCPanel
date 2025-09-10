@@ -25,7 +25,8 @@ FILES_TO_EXCLUDE=(
   "CODE_OF_CONDUCT.md"
   ".gitignore"
   "LICENSE"
-  "cloning.sh" # Or whatever the name of this script is
+  "cloning.sh" 
+  "header.png"
 )
 
 # 1. Clone the project into a temporary directory quietly
