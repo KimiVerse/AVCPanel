@@ -13,7 +13,7 @@ if [ -z "$DOMAIN" ]; then
 fi
 
 # Define variables
-DEST_PATH="/www/wwwroot/$DOMAIN"
+DEST_PATH="/www/wwwroot/$DOMAIN/AVCPanel"
 REPO_URL="https://github.com/KimiVerse/AVCPanel.git"
 TEMP_DIR="/tmp/avcpanel_clone_$(date +%s)"
 
