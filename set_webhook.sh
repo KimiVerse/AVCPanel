@@ -18,7 +18,7 @@ fi
 echo ""
 echo "Next, please provide your Telegram bot token."
 echo "For your security, your typing will not be visible on the screen."
-read -sp "Enter your token and press Enter: " BOT_TOKEN
+read -p "Enter your token and press Enter: " BOT_TOKEN
 echo "" # Move to a new line after the silent prompt
 echo "---"
 
