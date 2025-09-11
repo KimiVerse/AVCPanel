@@ -1,4 +1,4 @@
-# AVCPanel - Advanced Blitz <Hysteria-V2Ray> Client Panel
+# AVCPanel - Advanced Blitz (__Hysteria-V2Ray__) Client Panel
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/KimiVerse/AVCPanel/main/headermain.png" alt="AVCPanel header" width="500"/>
@@ -20,7 +20,7 @@ https://t.me/avcpanel
 ---
 
 
-AVCPanel is a powerful and efficient Telegram bot-based panel for managing Blitz <Hysteria-V2Ray> clients. It is designed for easy deployment and seamless user management. This project is also compatible with the **Blitz Panel** infrastructure.
+AVCPanel is a powerful and efficient Telegram bot-based panel for managing Blitz __Hysteria-V2Ray__ clients. It is designed for easy deployment and seamless user management. This project is also compatible with the **Blitz Panel** infrastructure.
 
 ⚡️**Blitz** Panel Github Link:
 https://github.com/ReturnFI/Blitz
