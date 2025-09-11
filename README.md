@@ -12,7 +12,17 @@
   <a href="README.fa.md"><strong>نسخه فارسی (Persian Version)</strong></a>
 </p>
 
-AVCPanel is a powerful and efficient Telegram bot-based panel for managing V2Ray clients. It is designed for easy deployment and seamless user management. This project is also compatible with the **Blitz Panel** infrastructure.
+
+---
+# AVCPanel Telegram Channel 💢
+https://t.me/avcpanel
+---
+
+
+AVCPanel is a powerful and efficient Telegram bot-based panel for managing Blitz <Hysteria-V2Ray> clients. It is designed for easy deployment and seamless user management. This project is also compatible with the **Blitz Panel** infrastructure.
+
+⚡️**Blitz** Panel Github Link:
+https://github.com/ReturnFI/Blitz
 
 ## ✨ Features
 
