@@ -1,4 +1,4 @@
-# AVCPanel - Advanced V2Ray Client Panel
+# AVCPanel - Advanced Blitz <Hysteria-V2Ray> Client Panel
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/KimiVerse/AVCPanel/main/headermain.png" alt="AVCPanel header" width="500"/>
