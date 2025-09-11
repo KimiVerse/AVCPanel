@@ -1,11 +1,11 @@
 # AVCPanel - Advanced V2Ray Client Panel
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/KimiVerse/AVCPanel/main/headermain.png" alt="AVCPanel header" width="300"/>
+  <img src="https://raw.githubusercontent.com/KimiVerse/AVCPanel/main/headermain.png" alt="AVCPanel header" width="500"/>
 </p>
 
 <p align="center">
-  <strong>In loving memory of Mahdi, a dear friend.</strong>
+  <strong>In loving memory of Mahdi 🖤, a dear friend.</strong>
 </p>
 
 <p align="center">
