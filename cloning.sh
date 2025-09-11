@@ -20,7 +20,11 @@ TEMP_DIR="/tmp/avcpanel_clone_$(date +%s)"
 # List of files and directories to be excluded/deleted
 FILES_TO_EXCLUDE=(
   ".git"
+  "DEPLOYMENT.fa.md"
+  "headermain.png"
+  "README.fa.md"
   "README.md"
+  "set_webhook.sh"
   "DEPLOYMENT.md"
   "CODE_OF_CONDUCT.md"
   ".gitignore"
