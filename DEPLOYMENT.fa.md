@@ -108,4 +108,12 @@
 wget -O set_webhook.sh https://raw.githubusercontent.com/KimiVerse/AVCPanel/main/set_webhook.sh && chmod +x set_webhook.sh && ./set_webhook.sh && rm set_webhook.sh
 ```
 
+## 9. تایید table.php
+
+در این مرحله، کافی است، به ادرس زیر مرجعه کنید 
+```
+<yourdomain>/AVCPanel/table.php
+```
+و در انتها enter کنید
+
 تبریک! نصب با موفقیت به پایان رسید.
